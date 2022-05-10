@@ -7,6 +7,14 @@ if(path.exists('input.txt')):
 
 ######################################################################
 
+'''
+Select the minimum element in each iteration from unsorted array and
+ place at the starting of unsorted array. then increiment the sorted
+  array by one 
+  Time Complexity = O(n2)
+  space Complexity = O(1)
+'''
+
 def selection_sort(arr):
     i = 0
     while i<len(arr):

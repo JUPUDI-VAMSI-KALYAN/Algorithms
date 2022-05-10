@@ -7,6 +7,14 @@ if(path.exists('input.txt')):
 
 ######################################################################
 
+'''
+Compare Adjacent elements and swap in correct order until they are sorted
+also called sinking sort
+
+
+Time Complexity = O(n2)
+Space Complexity = O(1)
+'''
 
 def bubble_sort(arr):
     for i in range(len(arr)-1):
